@@ -97,6 +97,11 @@
     margin-top: 15px;
   }
 }
+@media (max-width: 510px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
 .container00.container01 {
   background-image: url(../../images/home/01.jpg);
 }
@@ -224,6 +229,41 @@
   background-color: black;
 }
 
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+}
 .container00.container08 {
   background-image: url(../../images/humanFlight/01.jpg);
 }
