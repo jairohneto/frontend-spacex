@@ -101,6 +101,45 @@
       font-size: 18px;
     }
   }
+<<<<<<< HEAD
+=======
+
+  .falcon9Desc {
+    width: auto;
+  }
+  
+
+  #overViewPosition {
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+}
+>>>>>>> 17a9134061027b2b4c5b47edc11099dbc9e05c5f
 
   .falcon9Desc {
     width: auto;
